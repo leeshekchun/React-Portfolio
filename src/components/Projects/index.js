@@ -1,19 +1,26 @@
 import React from "react";
+import runBuddy from "../../assets/hero-bg.jpg";
+import horiseon from "../../assets/digital-marketing-meeting.jpg";
+import kevinBacon from "../../assets/kevinbacon-herobg.jpg";
+import petsagram from "../../assets/petsagram.png";
+import jennaLouise from "../../assets/art-of-jenna-louise.png";
 
 function Projects() {
   return (
     <section id="my-project">
-      <h1 class="section-title">My Project</h1>
+      <h1 class="section-title">My Projects</h1>
 
       <div class="run-buddy">
         <a href="https://leeshekchun.github.io/run-buddy/index.html">
           <img
-            src="./assets/images/hero-bg.jpg"
-            alt="run-buddy-project-cover"
+            src={runBuddy}
+            className="my-2"
+            style={{ width: "30%" }}
+            alt="cover"
           />
 
           <div class="run-buddy-text">
-            <h3>RUN-BUDDY</h3>
+            <h3>RUN BUDDY</h3>
           </div>
         </a>
       </div>
@@ -21,8 +28,10 @@ function Projects() {
       <div class="horiseon">
         <a href="https://leeshekchun.github.io/Horiseon-refactor/">
           <img
-            src="./assets/images/digital-marketing-meeting.jpg"
-            alt="digital-marketing-meeting"
+            src={horiseon}
+            className="my-2"
+            style={{ width: "30%" }}
+            alt="cover"
           />
 
           <div class="horiseon-text">
@@ -33,20 +42,30 @@ function Projects() {
 
       <div class="KevinBacon">
         <a href="https://dawnwogerman.github.io/6degreesofkevinbacon/">
-          <img src="./assets/images/kevinbacon-herobg.jpg" alt="Kevin Bacon" />
+          <img
+            src={kevinBacon}
+            className="my-2"
+            style={{ width: "30%" }}
+            alt="cover"
+          />
 
           <div class="kevinBacon-text">
-            <h3>Six Degree of Kevin Bacon</h3>
+            <h3>SIX DEGREE OF KEVIN BACON</h3>
           </div>
         </a>
       </div>
 
       <div class="petsagram">
         <a href="https://petsagram-project2.herokuapp.com/">
-          <img src="./assets/images/petsagram.png" alt="petsagram-project2" />
+          <img
+            src={petsagram}
+            className="my-2"
+            style={{ width: "30%" }}
+            alt="cover"
+          />
 
           <div class="petsagram-text">
-            <h3>Petsagram</h3>
+            <h3>PETSAGRAM</h3>
           </div>
         </a>
       </div>
@@ -54,12 +73,14 @@ function Projects() {
       <div class="artofJenna">
         <a href="https://artofjenna.herokuapp.com/">
           <img
-            src="./assets/images/art-of-jenna-louise.png"
-            alt="artOfJenna-project3"
+            src={jennaLouise}
+            className="my-2"
+            style={{ width: "30%" }}
+            alt="cover"
           />
 
           <div class="artOfJenna-text">
-            <h3>Art-of-Jenna-Louise</h3>
+            <h3>ART OF JENNA LOUISE</h3>
           </div>
         </a>
       </div>
