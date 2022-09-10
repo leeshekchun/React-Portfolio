@@ -4,7 +4,7 @@ import horiseon from "../../assets/digital-marketing-meeting.jpg";
 import kevinBacon from "../../assets/kevinbacon-herobg.jpg";
 import petsagram from "../../assets/petsagram.png";
 import jennaLouise from "../../assets/art-of-jenna-louise.png";
-import Project from "../Project"
+import Project from "../Project";
 
 function Projects() {
   return (
@@ -12,89 +12,44 @@ function Projects() {
       <h1 class="section-title">My Projects</h1>
 
       <Project
-        class = {"run-buddy"}
-        link = {"https://leeshekchun.github.io/run-buddy/index.html"}
-        img = {runBuddy}
-        text = {"run-buddy-text"}
-        title = {"RUN BUDDY"}
-      >
-      </Project>
+        class={"run-buddy"}
+        link={"https://leeshekchun.github.io/run-buddy/index.html"}
+        img={runBuddy}
+        text={"run-buddy-text"}
+        title={"RUN BUDDY"}
+      ></Project>
 
+      <Project
+        class={"horiseon"}
+        link={"https://leeshekchun.github.io/Horiseon-refactor/"}
+        img={horiseon}
+        text={"horiseon-text"}
+        title={"HORISEON"}
+      ></Project>
 
-      {/* <div class="run-buddy">
-        <a href="https://leeshekchun.github.io/run-buddy/index.html">
-          <img
-            src={runBuddy}
-            className="my-2"
-            style={{ width: "30%" }}
-            alt="cover"
-          />
+      <Project
+        class={"KevinBacon"}
+        link={"https://dawnwogerman.github.io/6degreesofkevinbacon/"}
+        img={kevinBacon}
+        text={"kevinBacon-text"}
+        title={"SIX DEGREE OF KEVIN BACON"}
+      ></Project>
 
-          <div class="run-buddy-text">
-            <h3>RUN BUDDY</h3>
-          </div>
-        </a>
-      </div> */}
-      
-      <div class="horiseon">
-        <a href="https://leeshekchun.github.io/Horiseon-refactor/">
-          <img
-            src={horiseon}
-            className="my-2"
-            style={{ width: "30%" }}
-            alt="cover"
-          />
+      <Project
+        class={"petsagram"}
+        link={"https://petsagram-project2.herokuapp.com/"}
+        img={petsagram}
+        text={"petsagram-text"}
+        title={"PETSAGRAM"}
+      ></Project>
 
-          <div class="horiseon-text">
-            <h3>HORISEON</h3>
-          </div>
-        </a>
-      </div>
-
-      <div class="KevinBacon">
-        <a href="https://dawnwogerman.github.io/6degreesofkevinbacon/">
-          <img
-            src={kevinBacon}
-            className="my-2"
-            style={{ width: "30%" }}
-            alt="cover"
-          />
-
-          <div class="kevinBacon-text">
-            <h3>SIX DEGREE OF KEVIN BACON</h3>
-          </div>
-        </a>
-      </div>
-
-      <div class="petsagram">
-        <a href="https://petsagram-project2.herokuapp.com/">
-          <img
-            src={petsagram}
-            className="my-2"
-            style={{ width: "30%" }}
-            alt="cover"
-          />
-
-          <div class="petsagram-text">
-            <h3>PETSAGRAM</h3>
-          </div>
-        </a>
-      </div>
-
-      <div class="artofJenna">
-        <a href="https://artofjenna.herokuapp.com/">
-          <img
-            src={jennaLouise}
-            className="my-2"
-            style={{ width: "30%" }}
-            alt="cover"
-          />
-
-          <div class="artOfJenna-text">
-            <h3>ART OF JENNA LOUISE</h3>
-          </div>
-        </a>
-      </div>
+      <Project
+        class={"artofJenna"}
+        link={"https://artofjenna.herokuapp.com/"}
+        img={jennaLouise}
+        text={"artOfJenna-text"}
+        title={"ART OF JENNA LOUISE"}
+      ></Project>
     </section>
   );
 }

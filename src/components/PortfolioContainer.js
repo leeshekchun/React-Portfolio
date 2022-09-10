@@ -6,6 +6,7 @@ import Experience from './Experience/index';
 import Projects from './Projects/index';
 import Contact from './Contact/index';
 import Footer from './Footer/index'
+import Resume from './Resume/index'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Header');
@@ -24,7 +25,10 @@ export default function PortfolioContainer() {
     if (currentPage === 'Projects') {
         return <Projects />;
       }
-    return <Contact />;
+      if (currentPage === 'Contact') {
+        return <Contact />;
+      }
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
