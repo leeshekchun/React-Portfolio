@@ -3,7 +3,7 @@
 ## Description 
 Showcase of my skill on React design and build
 
-Link to the deployed application here: 
+Link to the deployed application here: https://leeshekchun.github.io/React-Portfolio/
 
 
 ## Responsive Web Design
