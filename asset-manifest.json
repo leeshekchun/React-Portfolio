@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.1604b6d0.css",
+    "main.js": "/React-Portfolio/static/js/main.046aa2e2.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/digital-marketing-meeting.jpg": "/React-Portfolio/static/media/digital-marketing-meeting.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/me01.png": "/React-Portfolio/static/media/me01.a101af1eeb5d509d7671.png",
+    "static/media/petsagram.png": "/React-Portfolio/static/media/petsagram.00f9f5da294fb5a8285f.png",
+    "static/media/art-of-jenna-louise.png": "/React-Portfolio/static/media/art-of-jenna-louise.3597548ada4313a3f9e0.png",
+    "static/media/hero-bg.jpg": "/React-Portfolio/static/media/hero-bg.000e1b5ff4f0b912c97f.jpg",
+    "static/media/kevinbacon-herobg.jpg": "/React-Portfolio/static/media/kevinbacon-herobg.c1f4b691fe5c149dcb25.jpg",
+    "static/media/full-stack.jpeg": "/React-Portfolio/static/media/full-stack.13e0e0e15a8013b49f75.jpeg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.1604b6d0.css.map": "/React-Portfolio/static/css/main.1604b6d0.css.map",
+    "main.046aa2e2.js.map": "/React-Portfolio/static/js/main.046aa2e2.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1604b6d0.css",
+    "static/js/main.046aa2e2.js"
+  ]
+}
