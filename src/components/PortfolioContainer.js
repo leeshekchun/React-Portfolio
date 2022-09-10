@@ -5,6 +5,7 @@ import About from './About/index';
 import Experience from './Experience/index';
 import Projects from './Projects/index';
 import Contact from './Contact/index';
+import Footer from './Footer/index'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Header');
@@ -34,6 +35,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <Footer></Footer>
     </div>
   );
 }

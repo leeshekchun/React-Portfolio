@@ -4,13 +4,24 @@ import horiseon from "../../assets/digital-marketing-meeting.jpg";
 import kevinBacon from "../../assets/kevinbacon-herobg.jpg";
 import petsagram from "../../assets/petsagram.png";
 import jennaLouise from "../../assets/art-of-jenna-louise.png";
+import Project from "../Project"
 
 function Projects() {
   return (
     <section id="my-project">
       <h1 class="section-title">My Projects</h1>
 
-      <div class="run-buddy">
+      <Project
+        class = {"run-buddy"}
+        link = {"https://leeshekchun.github.io/run-buddy/index.html"}
+        img = {runBuddy}
+        text = {"run-buddy-text"}
+        title = {"RUN BUDDY"}
+      >
+      </Project>
+
+
+      {/* <div class="run-buddy">
         <a href="https://leeshekchun.github.io/run-buddy/index.html">
           <img
             src={runBuddy}
@@ -23,8 +34,8 @@ function Projects() {
             <h3>RUN BUDDY</h3>
           </div>
         </a>
-      </div>
-
+      </div> */}
+      
       <div class="horiseon">
         <a href="https://leeshekchun.github.io/Horiseon-refactor/">
           <img
